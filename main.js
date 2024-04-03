@@ -14,5 +14,10 @@ for(let i = 0; i < botoes.length; i++){
 // document.querySelector("#minhaDiv p").textContent = "vai embora calor";
 const contadores = document.querySelectorAll(".contador");
 let tempoAtual = new Date();
-const tempoObjetivo1 = new Date("2024-10-20T00:00:00");
-contadores[0].textContent = tempoObjetivo1 - tempoAtual;
+const tempoObjetivo1 = new Date("2024-05-03T00:00:00");
+let tempoFinal = tempoObjetivo1 - tempoAtual;
+let segundos = temoFinal / 1000;
+let minutos = segundos / 60;
+let horas = minutos / 60;
+let dias = horas / 24;
+
