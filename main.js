@@ -16,7 +16,7 @@ const contadores = document.querySelectorAll(".contador");
 let tempoAtual = new Date();
 const tempoObjetivo1 = new Date("2024-05-03T00:00:00");
 
-function calculaTempo(tempoObjetivo);{
+function calculaTempo(tempoObjetivo){
 let tempoFinal = tempoObjetivo - tempoAtual;
 let segundos = Math.floor(tempoFinal / 1000);
 let minutos = Math.floor(segundos / 60);
