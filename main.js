@@ -20,4 +20,5 @@ let segundos = temoFinal / 1000;
 let minutos = segundos / 60;
 let horas = minutos / 60;
 let dias = horas / 24;
+console.log(segundos);
 
