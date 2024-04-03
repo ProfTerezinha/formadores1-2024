@@ -22,5 +22,6 @@ let horas = Math.floor(minutos / 60);
 let dias = Math.floor(horas / 24);
 segundos %= 60;
 minutos %= 60;
-horas %= 24
+horas %= 24;
+contadores[0].texContent = dias + " dias " + horas + " horas " + minutos + " minutos " + segundos + " segundos ";
 
