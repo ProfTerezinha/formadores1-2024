@@ -4,3 +4,11 @@
 --branco:#FFFFFF;
 --verde:#6fff57;
 }
+
+body{
+    background-color: var(--cor-de-fundo);
+    color: var(--branco);
+    text-align: center;
+    font-family: 'Chakra Petch';
+
+}
