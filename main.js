@@ -33,5 +33,5 @@ return dias + " dias " + horas + " horas " + minutos + " minutos " + segundos + 
 } 
 
 for (let i = 0; i < contadores.length; i++ ){
-contadores[i].textContent = calculaTempo(tempos);
+contadores[i].textContent = calculaTempo(tempos [i]);
 }
