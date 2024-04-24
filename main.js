@@ -37,7 +37,7 @@ function atualizaCronometro() {
         contadores[i].textContent = calculaTempo(tempos[i]);
     }
 }
-function(comecaCronpmetro){
+function(comecaCronometro){
     atualizaCronometro();
     setInterval(atualizaCronometro, 1000);
 }
