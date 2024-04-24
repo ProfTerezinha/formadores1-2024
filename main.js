@@ -38,5 +38,7 @@ function atualizaCronometro() {
     }
 }
 function(comecaCronpmetro){
+    atualizaCronometro();
     setInterval(atualizaCronometro, 1000);
 }
+comecaCronpmetro();
