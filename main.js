@@ -13,7 +13,7 @@ for (let i = 0; i < botoes.length; i++) {
 }
 // document.querySelector("#minhaDiv p").textContent = "vai embora calor";
 const contadores = document.querySelectorAll(".contador");
-const tempoObjetivo1 = new Date("2024-05-03T00:00:00");
+const tempoObjetivo1 = new Date("2024-02-03T00:00:00");
 const tempoObjetivo2 = new Date("2024-06-05T00:00:00");
 const tempoObjetivo3 = new Date("2024-07-02T00:00:00");
 const tempoObjetivo4 = new Date("2024-08-01T00:00:00");
@@ -29,7 +29,11 @@ function calculaTempo(tempoObjetivo) {
     segundos %= 60;
     minutos %= 60;
     horas %= 24;
+   if (tempoFinal > 0){ 
     return dias + " dias " + horas + " horas " + minutos + " minutos " + segundos + " segundos ";
+}else {
+    return "Prazo Finalizado.";
+}
 }
 function atualizaCronometro() {
     for (let i = 0; i < contadores.length; i++) {
